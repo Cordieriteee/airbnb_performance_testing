@@ -1,0 +1,39 @@
+# 注释：以 # 开头的行，告诉你该行是说明文字，不会作为规则生效
+
+# Python
+# 忽略所有名为 __pycache__ 的目录
+__pycache__/       
+*.pyc              
+# 忽略所有以 .pyc 结尾的文件（Python 编译产生的字节码文件）
+
+
+# Jupyter
+*.ipynb_checkpoints/  
+# 忽略所有以 .ipynb_checkpoints 结尾的目录（Jupyter 自动保存的检查点）
+
+# VS Code 设置
+.vscode/           
+# 忽略 .vscode 目录（IDE 的本地配置）
+
+# 日志文件
+*.log              
+# 忽略所有以 .log 结尾的日志文件
+
+# 数据文件
+data/              
+# 忽略名为 data 的目录及其所有子文件和子目录
+
+# 忽略所有以 .env 结尾的文件（环境变量文件）
+.env
+
+reference/
+# 忽略名为 reference 的目录及其所有子文件和子目录
+
+upload_repo/
+
+*.docx
+# 忽略所有以 .docx 结尾的文件（Word 文档）
+
+*.json
+# 忽略所有以 .json 结尾的文件（JSON 文件）
+
